@@ -1,0 +1,196 @@
+header {
+  position: absolute;
+  width: 1272px;
+  height: 76px;
+
+  background: #ffffff;
+}
+
+.container {
+  position: absolute;
+  width: 1272px;
+  height: 76px;
+
+  background: #ffffff;
+}
+
+.blogtitle {
+  position: absolute;
+  width: 178px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #565252;
+}
+
+.img {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+
+  background: #565252;
+}
+
+.autherName {
+  position: absolute;
+  width: 75px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #57baf2;
+}
+.authorDescription {
+  position: absolute;
+  width: 250px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #565252;
+}
+
+.content1 {
+  position: absolute;
+  width: 934px;
+  height: 90px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+.banner {
+  position: absolute;
+  width: 934px;
+  height: 90px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+.content2 {
+  position: absolute;
+  width: 941px;
+  height: 90px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+h2 {
+  position: absolute;
+  width: 924px;
+  height: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #565252;
+}
+
+.content3,
+p {
+  position: absolute;
+  width: 406px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+.container1,
+p {
+  position: absolute;
+  width: 406px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+li,
+ul {
+  position: absolute;
+  width: 580px;
+  height: 106px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}
+
+h3 {
+  position: absolute;
+  width: 641px;
+  height: 163px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #565252;
+}
+
+li,
+ol {
+  position: absolute;
+  width: 641px;
+  height: 163px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #565252;
+}

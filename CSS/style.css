@@ -1,0 +1,65 @@
+header {
+  /* position: absolute; / */
+  width: 1272px;
+  height: 166px;
+  /* position: absolute; */
+  width: 145px;
+  height: 70px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #565252;
+}
+
+.container1{
+    display: flex;
+    
+}
+.design {
+
+}
+
+.link2 {
+
+}
+
+.link3 {
+
+}
+
+.link4 {
+
+}
+
+.follow {
+
+}
+
+.subscribe {
+
+}
+.container2 {
+    display: flex;
+}
+ 
+.title {
+
+}
+
+.post1 {
+
+}
+
+.post2 {
+
+}
+
+.post3 {
+
+}
+
+footer {
+
+}

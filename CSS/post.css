@@ -1,5 +1,5 @@
 header {
-  position: absolute;
+  /* position: absolute; */
   width: 1272px;
   height: 76px;
 
@@ -7,7 +7,7 @@ header {
 }
 
 .container {
-  position: absolute;
+  /* position: absolute; */
   width: 1272px;
   height: 76px;
 
@@ -15,7 +15,7 @@ header {
 }
 
 .blogtitle {
-  position: absolute;
+  /* position: absolute; */
   width: 178px;
   height: 48px;
 
@@ -29,7 +29,7 @@ header {
 }
 
 .img {
-  position: absolute;
+  /* position: absolute; */
   width: 57px;
   height: 57px;
 
@@ -37,7 +37,7 @@ header {
 }
 
 .autherName {
-  position: absolute;
+  /* position: absolute; */
   width: 75px;
   height: 15px;
 
@@ -51,7 +51,7 @@ header {
   color: #57baf2;
 }
 .authorDescription {
-  position: absolute;
+  /* position: absolute; */
   width: 250px;
   height: 15px;
 
@@ -66,7 +66,7 @@ header {
 }
 
 .content1 {
-  position: absolute;
+  /* position: absolute; */
   width: 934px;
   height: 90px;
 
@@ -80,7 +80,7 @@ header {
 }
 
 .banner {
-  position: absolute;
+  /* position: absolute; */
   width: 934px;
   height: 90px;
 
@@ -94,7 +94,7 @@ header {
 }
 
 .content2 {
-  position: absolute;
+  /* position: absolute; */
   width: 941px;
   height: 90px;
 
@@ -108,7 +108,7 @@ header {
 }
 
 h2 {
-  position: absolute;
+  /* position: absolute; */
   width: 924px;
   height: 50px;
 
@@ -123,7 +123,7 @@ h2 {
 
 .content3,
 p {
-  position: absolute;
+  /* position: absolute; */
   width: 406px;
   height: 19px;
 
@@ -138,7 +138,7 @@ p {
 
 .container1,
 p {
-  position: absolute;
+  /* position: absolute; */
   width: 406px;
   height: 19px;
 
@@ -153,7 +153,7 @@ p {
 
 li,
 ul {
-  position: absolute;
+  /* position: absolute; */
   width: 580px;
   height: 106px;
 
@@ -167,7 +167,7 @@ ul {
 }
 
 h3 {
-  position: absolute;
+  /* position: absolute; */
   width: 641px;
   height: 163px;
 
@@ -182,7 +182,7 @@ h3 {
 
 li,
 ol {
-  position: absolute;
+  /* position: absolute; */
   width: 641px;
   height: 163px;
 

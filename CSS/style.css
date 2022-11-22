@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Raleway:wght@200&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Raleway:wght@200&family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  margin-top: 0px;
+  padding: 0;
+  /* color: #fff;
+  background: #363636; */
 }
 nav {
-  background:#e19c30;
+  background: #e19c30;
   height: 80px;
-  width: 100%;;
+  width: 100%;
 }
 
 label.logo {
@@ -28,7 +32,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  line-height:  80px;
+  line-height: 80px;
   margin: 0 5px;
 }
 nav ul li a {
@@ -39,31 +43,29 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-a.active, a:hover
-{
+a.active,
+a:hover {
   background: #f0dec0;
-  transition: .5s;
+  transition: 0.5s;
 }
 .container {
   width: 100%;
 }
 .container .row {
   width: 80%;
-  margin:auto;
-
+  margin: auto;
 }
 .container .row .header {
   width: 60%;
   text-align: center;
   margin: auto;
-  
 }
-.container .row .header h1{
-padding-top: 30px;
-font-size: 45px;
-color: #e19c30;
+.container .row .header h1 {
+  padding-top: 30px;
+  font-size: 45px;
+  color: #e19c30;
 }
-.container .row .header p{
+.container .row .header p {
   padding-top: 16px;
   font-size: 18px;
   line-height: 1.5;
@@ -78,7 +80,7 @@ color: #e19c30;
 .content .card {
   flex: 1;
   margin: 50px 20px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 .content .card img {
@@ -96,15 +98,107 @@ color: #e19c30;
   line-height: 1.5;
   padding: 10px;
 }
-footer {
+.footer-index {
   background-color: #e19c30;
   color: #fff;
   text-align: center;
   font-size: 18px;
   padding: 5px;
 }
+.footer-blog-post {
+  /* margin-top: 320px; */
+  /* background: rgb(210, 184, 162); */
+  background-color: #e19c30;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
-@media screen and (max-width: 768px){
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+.fa-github {
+  color: white;
+}
+.fa-google-plus {
+  color: white;
+}
+.fa-linkedin {
+   color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-pinterest {
+  color: white;
+}
+.author {
+  width: 100%;
+  padding: 78px 0px;
+  background-color: #fff;
+}
+.author img {
+  height: auto;
+  width: 420px;
+}
+.info-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info-text h1 {
+  /* color: #fff; */
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.info-text h5 {
+  /* color: #fff; */
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span {
+  color:#e19c30;
+}
+.info-text p {
+  color:#e19c30;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+button {
+  background-color: #e19c30;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 20px;
+  transition: .4s;
+}
+button:hover {
+  background: transparent;
+  border: 2px solid #e19c30;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
   .content {
     flex-direction: column;
   }

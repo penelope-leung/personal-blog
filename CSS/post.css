@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Raleway:wght@200&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;1,300&family=Raleway:wght@200&family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap');
 
 * {
   margin: 0px;
@@ -10,8 +10,8 @@
 body {
   margin-top: 0px;
   padding: 0;
-  /* color: #fff;
-  background: #363636; */
+  color: #fff;
+  background: #363636;
 }
 nav {
   background: #e19c30;
@@ -43,8 +43,8 @@ nav ul li a {
   border-radius: 3px;
   text-transform: uppercase;
 }
-footer {
-  /* margin-top: 320px; */
+.footer-blog-post {
+  margin-top: 320px;
   background: rgb(210, 184, 162);
 }
 a:link {
@@ -84,13 +84,13 @@ a:active {
   justify-content: space-around;
 }
 .info-text h1 {
-  /* color: #fff; */
+  color: #fff;
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 .info-text h5 {
-  /* color: #fff; */
+  color: #fff;
   font-size: 25px;
   text-transform: capitalize;
   margin-bottom: 25px;

@@ -42,6 +42,11 @@ nav ul li a {
   border-radius: 3px;
   text-transform: uppercase;
 }
+blockquote {
+  color: #1a2627;
+  padding: 15px 0;
+  text-align: center;
+  }
 
 a.active,
 a:hover {
@@ -166,7 +171,7 @@ a:hover {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-.info-text h5 {
+.info-text h5 figcaption {
   /* color: #fff; */
   font-size: 25px;
   text-transform: capitalize;
